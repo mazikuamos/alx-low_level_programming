@@ -1,1 +1,1 @@
-0x00. C - Hello, World
+This is project folder, that will be storing all Task and script
