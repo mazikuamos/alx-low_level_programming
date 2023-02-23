@@ -1,5 +1,5 @@
 #include "main.h"
-#include <ctype.h> 
+#include <ctype.h>
 
 /**
  * _isupper - function return uppercase value
@@ -18,4 +18,5 @@ int _isupper(int c)
 	{
 		return (0);
 	}
+	return (0);
 }
