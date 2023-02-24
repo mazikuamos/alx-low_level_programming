@@ -6,7 +6,7 @@
  * Return: Return null value
  */
 
-int main(void)
+void fizz_buzz(void)
 {
 	int i;
 
@@ -30,5 +30,4 @@ int main(void)
 		}
 	}
 	printf("%c", 10);
-	return (0);
 }
