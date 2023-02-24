@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - function print mix
  * Return: Return null value
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -30,4 +29,5 @@ void fizz_buzz(void)
 		}
 	}
 	printf("%c", 10);
+	return (0);
 }
