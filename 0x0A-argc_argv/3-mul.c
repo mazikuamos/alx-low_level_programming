@@ -12,13 +12,14 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
-	int mult = 1;
+	int i, j, c;
 
-	if (argc > 2 && argc <= 3)
+	if (argc > 2)
 	{
-		for (i = 1; i < argc; i++)
-			mult = mult * atoi(argv[i]);
+		i = atoi(argv[1]);
+		j = atoi(argv[2]);
+		c = i * j;
+		printf("%d\n", c);
 	}
 	else
 		printf("Error\n");
